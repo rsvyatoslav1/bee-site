@@ -1,0 +1,62 @@
+.page-wrapper {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    width: auto;
+    padding: 20px 20px;
+
+    background-color: orange;
+}
+.nav-area {
+    float: left;
+}
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.nav-item:hover {
+    border-bottom: 1px solid white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.main {
+    width: 65%;
+}
+.main img {
+    width: 100%;
+}
+
+.main table {
+    width: 100%;
+    text-align: center;
+}
+.main td {
+    border: 2px solid;
+}
+.main thead {
+    background-color: lightgray;
+}
+
+.aside {
+    float: right;
+    width: 30%;
+}
+
+.footer {
+    width: auto;
+    margin-top: 20px;
+    padding: 20px 20px;
+
+    background-color: orange;
+    text-align: center;
+}
